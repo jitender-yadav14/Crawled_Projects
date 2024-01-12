@@ -92,6 +92,7 @@ class scrapper:
                     img = ""
                 p_data = {"Name": name, "Price": price, "href": p_url, "Image": img}
                 data.append(p_data)
+                
             page += 1
         # print(data)
 
