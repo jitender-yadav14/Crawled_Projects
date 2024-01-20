@@ -58,7 +58,6 @@ class Scraper(Basemethods):
         print(data)
 
 
-
 a = Scraper()
 a.get_details()
 
